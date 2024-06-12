@@ -37,7 +37,7 @@ useEffect(() => {
   fetchExercisesData();
     
   
-}, [bodyPart])
+}, [bodyPart, setExercises])
 
 
   return (
